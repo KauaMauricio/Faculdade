@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@600&display=swap');
+      
+      * {
+        font-family: 'Radio Canada', sans-serif;
+        font-weight: 400;
+      }
+      body {
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #e2e3e4 100%);
+      }
+
+      li a {
+            font-size: 18px;
+      }
+      footer p {
+            font-size: 13pt;
+            font-weight: 600;
+      }
+  </style>
+</head>
+<body>
+
+    <!-- ------------------------ MENU TOPO ------------------------ -->
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">SmileSenior </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Postagens</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">últimas atualizações</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#misson">Quem somos</a>
+        </li>    
+        </ul>
+    </div>  
+
+    <div class="d-flex flex-row-reverse bg-secondary">
+        <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<!-- ------------------------ MENU LATERAL ------------------------ -->
+
+<div class="container" style="margin-top:30px">
+    <div class="row">
+        <div class="col-sm-4">
+
+            <h2>Nossa casa</h2>
+            <h5>Nosso lar para idosos</h5>
+            <img width="100%" height="18%" style="border-radius: 5px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="img/fotoCapa.png" alt="">
+            <p> A tecnologia não tem idade! Arrisque-se.</p>
+            <br>
+            <h3>Links para Contato</h3>
+            <p>Caso tenha alguma dúvida não exite entre em contato conosco.</p>
+
+            <div class="card border-info flex-column mb-3" style="max-width: 18rem;">
+                <h4 class="card-header">Contato</h4>
+                <div class="card-body">
+                  <p class="card-title">WhatsApp:(11) 99829-9843</p>
+                  <p class="card-title">Email:smilesenior@gmail.com</p>
+                  <p class="card-title">Instagram:@smilesenior</p>
+                </div>
+              </div>
+
+              <div class="card border-info mb-3" style="max-width: 18rem;">
+                <h4 class="card-header">Localidade</h4>
+                <div class="card-body">
+                  <p class="card-title">Praça da Árvore -SP (ao lado do metrô)</p>
+                </div>
+              </div>
+
+              <div class="card border-info mb-3" style="max-width: 18rem;">
+                <h4 class="card-header">Eventos</h4>
+                <div class="card-body">
+                  <p class="card-title">Qui à Dom das 14hrs às 17hrs em nossa casa.</p>
+                </div>
+              </div>
+              <div class="card border-info mb-3" style="max-width: 18rem;">
+                <h4 class="card-header">Quem somos</h4>
+                <div class="card-body">
+                  <a href="#visao" class="card-title">clique aqui para saber mais</a>
+                </div>
+              </div>
+
+
+
+        
+        <ul class="nav nav-pills flex-column">
+            <li class="nav-item">
+            <a class="nav-link active" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Localidade</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Eventos</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link disabled" href="#">Quem somos</a>
+            </li>
+        </ul>
+        <hr class="d-sm-none">
+    </div>
+
+
+    <!-- ------------------------ FEED ------------------------ -->
+
+
+    <div class="col-sm-8">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/foto2.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/foto3.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/foto6.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    
+        <p>Um grande viva aos idosos e a tudo que representam, pois da vida como a conhecemos a eles tudo devemos.  <br></p>
+
+      <br>
+
+      <h2>Por que nos destacamos tanto?</h2>
+      <h6>Titulo postado em 2 Março de 2022</h6>
+      <img width="100%" height="36%" style="border-radius: 5px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="img/fotoUltima.png" alt="">
+       
+        <p class="mt-2">Prolongar a juventude é desejo de todos. Desfrutar de uma velhice sadia é sabedoria de poucos.<br></p>
+      </div>
+  </div>
+</div>
+
+<hr>
+<div class="container justify-content-center" style="margin-left: 20%;">
+    <div class="col-8 text-center" id="misao">
+      <div class="list-group" id="list-tab" role="tablist">
+        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#misson" role="tab" aria-controls="home">Quem somos</a>
+        <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Missão</a>
+        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Visão</a>
+        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Valores</a>
+      </div>
+    </div>
+    <div class="col-8 mt-4">
+      <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="misson" role="tabpanel" aria-labelledby="list-home-list">Somos a Casa de Repouso SMILE SENIOR, um centro de referência no cuidado com a saúde e bem-estar do idoso. Por meio de sua unidade de atendimento localizada no bairro Praça da Arvore, em São Paulo, e também por seus esforços de responsabilidade social e ensino, ajuda um número cada vez maior de pessoas a alcançarem a Terceira Idade com saúde, qualidade de vida e dignidade. A humanização do atendimento, a gratidão e a excelência são as bases da atuação da Casa de Repouso SMILE SENIOR. </div>
+        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Acolher os idosos para uma casa de repouso onde terão conforto e um ótimo bem estar. Promover a eles, saúde, lazer, recuperação, bem-estar, integração, socialização, segurança, independência e dignidade.</div>
+        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Temos o objetivo de acolher todos os idosos, criar um lar para eles, para que possam se sentir acolhidos, serem uma familia.</div>
+        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Temos transparência com os nossos idosos, mantendo um padrão de cuidado com todos eles, para que possam se sentir sempre acolhidos. Onde não faltaras amor, respeito, paciÊncia, sabedoria, disciplina, confiança e generosidade.</div>
+      </div>
+    </div>
+  </div>
+
+
+    <footer class="mt-5">
+       <div class="col-md-12 bg-dark text-center text-white" style="height: 120px;">
+          <p style="padding-top: 30px;">todos os direitos reservados ©</p>
+       </div>
+    </footer>
+
+</body>
+</html>
